@@ -1,0 +1,19 @@
+<!-- erkennings.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+    <script>
+        var userLang = navigator.language || navigator.userLanguage;
+        if (userLang.startsWith("nl")) {
+            window.location.href = "erkenning_nl.html";
+        } else {
+            window.location.href = "erkenning_en.html";
+        }
+    </script>
+</head>
+<body>
+    Redirecting...
+</body>
+</html>

@@ -1,0 +1,41 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 10px;
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+nav {
+    margin-bottom: 20px;
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 40px; /* adjust as needed */
+    height: 40px; /* adjust as needed */
+}
+
+
+nav img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+#logo-bottom {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 40px; /* adjust as needed */
+    height: 40px; /* adjust as needed */
+}
