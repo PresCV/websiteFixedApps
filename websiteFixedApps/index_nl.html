@@ -5,19 +5,34 @@
     <meta charset="UTF-8">
     <title>FixedApps.eu - Startpagina</title>
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6824678299964398" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Welkom bij FixedApps.eu</h1>
-    <nav>
+     <div class="header">
+        <a href="index_nl.html">
+            <img src="FixedAppsLogo.jpg" alt="FixedApps Logo">
+        </a>
+        
+    </div>
+    <!-- <nav>
         <a href="erkenning_nl.html" class="support-btn">
             <img src="baseline_car_repair_black_24dp.png" alt="Erkenning">
             Erkenningen App
         </a> 
         <a href="index_en.html" class="support-btn">English</a> 
         <a href="support_en.html" class="support-btn">Support me!</a>
-    </nav>
+    </nav> -->
+    <div id="navbar"></div>
     <p>Welkom op FixedApps.eu, de thuisbasis van de Erkenningen-app. Deze website is nog in aanbouw, dus kom binnenkort terug voor updates. Ondertussen, als je mijn apps nuttig vindt, overweeg dan om mijn werk te steunen. Bedankt voor je bezoek!</p>
+
+    <div id="navbar"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
+
+
+<script>
+    $(function(){
+        $("#navbar").load("navbar-nl.html"); 
+    });
+</script>
+
 </html>
